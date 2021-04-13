@@ -3,15 +3,15 @@ import { Navbar, Nav } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 
 const navStyle = {
-    fontSize: '1.5rem', 
+    fontSize: '1.7rem', 
     fontWeight: 700,
-    backgroundColor: 'black',
-    color: '#a4826c'
+    backgroundColor: '#d8bc96', // this was black
+    color: 'black' // this was #a4826c
 }
 
 const brandStyle = {
-    fontSize: '1.7rem', 
-    color: '#a4826c'
+    fontSize: '1.9rem', 
+    color: 'black'
 }
 
 const Navigation = () => {
