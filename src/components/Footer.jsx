@@ -25,13 +25,12 @@ text-align: center;
 display: flex;
 align-items: center;
 justify-content: center;
-position: fixed;
-left: 0;
-bottom: 0;
 font-weight: 700;
 font-size: 1.6rem;
 `
-// const Email = styled.a`
-// margin-left: 20px;
-// color: white;
-// `
+
+
+// This was sticking the footer to the bottom of the viewport
+// position: absolute;
+// left: 0;
+// bottom: 0;

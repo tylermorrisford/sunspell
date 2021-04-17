@@ -8,15 +8,14 @@ const Belt = () => {
             <Background>
                 <Row>
                     <Col s={12} md={6}>
-                        <h2>Let's make a record</h2>
-                        <p>Joey can sing falsetto on it</p>
+                        <h1>Let's make a recording</h1>
+                        <small>Joey can sing falsetto on it</small>
                     </Col>
                     <Col s={12} md={6}>
                         <h1>Sunspell Records</h1>
-                        <p>122 7th Avenue<br />
-                        Salt Lake City, Utah<br />
+                        <p>Salt Lake City, Utah<br />
                         801-952-7283<br />
-                        email@example.com</p>
+                        sunspellrecords@gmail.com</p>
                     </Col>
                 </Row>
             </Background>
@@ -30,8 +29,10 @@ background-color: #202020;
 width: 100%;
 color: whitesmoke;
 font-family: 'Roboto', sans-serif;
-padding: 2em 0 0 3em;
-height: 50vh;
+// font-size: 2.5rem;
+// font-weight: 'thin';
+padding: 3em 0 2em 3em;
+// height: 50vh;
 `
 
 

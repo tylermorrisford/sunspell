@@ -11,6 +11,10 @@ import Footer from './components/Footer';
 
 import './App.css';
 import Home from './pages/Home'
+import Gear from './pages/Gear'
+import Services from './pages/Services'
+import About from './pages/About'
+import Contact from './pages/Contact'
 
 export default function App() {
   return (
@@ -46,17 +50,3 @@ export default function App() {
   );
 }
 
-
-function Gear() {
-  return <h2>Gear</h2>;
-}
-
-function Services() {
-  return <h2>Services</h2>;
-}
-function Contact() {
-  return <h2>Contact</h2>;
-}
-function About() {
-  return <h2>About Sunspell</h2>;
-}

@@ -10,7 +10,7 @@ const navStyle = {
 }
 
 const brandStyle = {
-    fontSize: '1.9rem', 
+    fontSize: '2.1rem', 
     color: 'black'
 }
 
