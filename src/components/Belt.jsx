@@ -12,9 +12,7 @@ const Belt = () => {
             <Background>
                 <Row style={{margin: 0, padding: 0}}>
                     <Col s={12} md={6} style={colStyle}>
-                        <div style={{height: '50px', padding: 'auto 0'}}>
-                            <h1>Let's make a recording</h1>
-                        </div>
+                            <h1 style={{paddingBottom:'25px'}}>Let's make a recording</h1>
                     </Col>
                     <Col s={12} md={6} style={colStyle}>
                         <div style={{textAlign: 'left'}}>
@@ -36,7 +34,7 @@ width: 100%;
 color: whitesmoke;
 font-family: 'Roboto', sans-serif;
 padding: 3em 0 2em 3em;
-text-align: center; 
+// text-align: center; 
 `
 
 export default Belt;
