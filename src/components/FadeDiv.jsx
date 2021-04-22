@@ -1,17 +1,17 @@
 import React from 'react';
-import { CSSTransitionGroup } from 'react-transition-group'
+import { CSSTransition } from 'react-transition-group';
 
 const FadeDiv = (props) => {
 
         return (
-          <CSSTransitionGroup
-            transitionName="example"
-            transitionAppear={true}
-            transitionAppearTimeout={500}
-            transitionEnter={false}
-            transitionLeave={false}>
+          <CSSTransition
+            classNames="example"
+            appear={true}
+            timeout={500}
+            enter={false}
+            exit={false}>
             {props.children}
-          </CSSTransitionGroup>
+          </CSSTransition>
         );     
 }
 
