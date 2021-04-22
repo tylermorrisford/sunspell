@@ -12,11 +12,13 @@ const Belt = () => {
             <Background>
                 <Row style={{margin: 0, padding: 0}}>
                     <Col s={12} md={6} style={colStyle}>
-                        <h1>Let's make a recording</h1>
+                        <div style={{height: '50px', padding: 'auto 0'}}>
+                            <h1>Let's make a recording</h1>
+                        </div>
                     </Col>
                     <Col s={12} md={6} style={colStyle}>
                         <div style={{textAlign: 'left'}}>
-                            <h1>Sunspell Records</h1>
+                            <h1>Sunspell Records</h1>   
                             <p>Salt Lake City, Utah<br />
                             801-952-7283<br />
                             <a style={{color: '#a4826c'}} href="mailto:sunspellrecords@gmail.com">sunspellrecords@gmail.com</a></p>
