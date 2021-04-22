@@ -1,15 +1,15 @@
 import React from "react";
+import './App.css';
 import {
   BrowserRouter as Router,
   Switch,
   Route,
 } from "react-router-dom";
-
+// components
 import Navigation from './components/Nav';
 import Belt from './components/Belt';
 import Footer from './components/Footer';
-
-import './App.css';
+// pages
 import Home from './pages/Home'
 import Gear from './pages/Gear'
 import Services from './pages/Services'

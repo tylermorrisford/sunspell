@@ -8,7 +8,6 @@ const Home = () => {
     return(
         <Holder>
             <SunspellLogo className="App-logo" />
-            {/* <img className="App-logo" src={sunspellImageLink} alt="Sunspell Logo"/> */}
         </Holder>
     );
 
@@ -19,7 +18,6 @@ export default Home;
 const Holder = styled.div`
 width: 100%;
 height: 90vh;
-background-color: #d8bc96;
 text-align: center;
 display: flex;
 align-items: center;

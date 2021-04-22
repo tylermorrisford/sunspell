@@ -22,3 +22,13 @@
     transform: rotate(360deg);
   }
 }
+
+/* React Transition Group Fade-in */
+.example-appear {
+  opacity: 0.01;
+}
+
+.example-appear.example-appear-active {
+  opacity: 1;
+  transition: opacity 200ms ease-in;
+}

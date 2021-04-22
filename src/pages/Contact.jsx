@@ -1,23 +1,24 @@
 import React from 'react';
-import { Button, Row, Col } from 'react-bootstrap';
+import { Button } from 'react-bootstrap';
 import styled from 'styled-components';
+import FadeDiv from '../components/FadeDiv';
+import PageBody from '../components/PageBody';
+import room from '../images/Sunspell_room.jpg';
+
 
 const Contact = () => {
 
     return(
         <>
-        <Holder>
-            <Row>
-                <Col md={10}>
+        <FadeDiv>
+        <Holder />
+        </FadeDiv>
+        <PageBody>
+                <div style={{textAlign: 'center', fontSize: '3rem', width: '70%', margin: '0 auto'}}>
                 <h2>We're probably making a hit <br />*right now* <br />so drop us a line, <br />we'll get right back 'atcha</h2>
-                </Col>
-                <Col md={2}>
-                <div style={{textAlign: 'center', fontSize: '3rem', width: '25px', margin: '0 auto'}}>
                 <Email href="mailto:sunspellrecords@gmail.com"><Button variant="outline-dark"><h2>Email us</h2></Button></Email>
                 </div>
-                </Col>
-            </Row>
-        </Holder>
+        </PageBody>
         </>
     );
 
@@ -27,8 +28,12 @@ export default Contact;
 
 const Holder = styled.div`
 width: 100%;
-height: 90vh;
+height: 80vh;
 background-color: #d8bc96;
+background-image: url(${room});
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
 text-align: center;
 display: flex;
 align-items: center;

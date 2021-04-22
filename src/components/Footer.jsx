@@ -2,13 +2,10 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Footer = () => {
-
-    const currentDate = new Date();
     
     return (
         <Foot>
-            <p>© {currentDate.getFullYear()} Sunspell Records</p>
-            {/* <Email href="mailto:tylerford@gmail.com">email us</Email> */}
+            <p>© {new Date().getFullYear()} Sunspell Records</p>
         </Foot>
     )
 }

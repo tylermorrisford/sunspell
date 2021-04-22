@@ -1,12 +1,22 @@
 import React from 'react';
 import styled from 'styled-components';
+import FadeDiv from '../components/FadeDiv';
+import PageBody from '../components/PageBody';
+import control from '../images/Sunspell_control.jpg';
+
 
 const Services = () => {
 
     return(
-        <Holder>
-            <h2>We know how to twist all the knobs <br />and also do actual recording-related stuff to help you make a great record.</h2>
-        </Holder>
+        <>
+            <FadeDiv>
+                <Holder />
+            </FadeDiv>
+            <PageBody>
+                <h2>We know how to twist those knobs.<br />
+                AND we know how to make records</h2>
+            </PageBody>
+        </>
     );
 
 }
@@ -15,8 +25,12 @@ export default Services;
 
 const Holder = styled.div`
 width: 100%;
-height: 90vh;
+height: 80vh;
 background-color: #d8bc96;
+background-image: url(${control});
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
 text-align: center;
 display: flex;
 align-items: center;
