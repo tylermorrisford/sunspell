@@ -1,16 +1,17 @@
 import React from 'react';
 import { CSSTransition } from 'react-transition-group';
+import '../App.css';
 
 const FadeDiv = (props) => {
 
         return (
           <CSSTransition
-            classNames="example"
+            in={true}
             appear={true}
             timeout={500}
-            enter={false}
-            exit={false}>
-            {props.children}
+            classNames="fade"
+            >
+                {props.children}
           </CSSTransition>
         );     
 }

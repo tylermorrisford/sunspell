@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
 import styled from 'styled-components';
-// import FadeDiv from '../components/FadeDiv';
+import FadeDiv from '../components/FadeDiv';
 import PageBody from '../components/PageBody';
 import room from '../images/Sunspell_room.jpg';
 
@@ -10,9 +10,9 @@ const Contact = () => {
 
     return(
         <>
-        {/* <FadeDiv> */}
-        <Holder />
-        {/* </FadeDiv> */}
+        <FadeDiv>
+            <Holder />
+        </FadeDiv>
         <PageBody>
                 <div style={{textAlign: 'center', fontSize: '3rem', width: '70%', margin: '0 auto'}}>
                 <h2>We're probably making a hit <br />*right now* <br />so drop us a line, <br />we'll get right back 'atcha</h2>

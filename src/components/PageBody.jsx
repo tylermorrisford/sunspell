@@ -15,5 +15,6 @@ export default PageBody;
 const TextHolder = styled.div`
 text-align: center;
 align-content: center; 
-padding: 30px 0;
+padding: 45px;
+margin: 0 1.5em;
 `

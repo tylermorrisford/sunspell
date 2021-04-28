@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-// import FadeDiv from '../components/FadeDiv';
+import FadeDiv from '../components/FadeDiv';
 import PageBody from '../components/PageBody';
 import control from '../images/Sunspell_control.jpg';
 
@@ -9,9 +9,9 @@ const Services = () => {
 
     return(
         <>
-            {/* <FadeDiv> */}
+            <FadeDiv>
                 <Holder />
-            {/* </FadeDiv> */}
+            </FadeDiv>
             <PageBody>
                 <h2>We know how to twist those knobs.<br />
                 AND we know how to make records</h2>

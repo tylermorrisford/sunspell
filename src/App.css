@@ -10,7 +10,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 17s linear;
+    animation: App-logo-spin infinite 16s linear;
   }
 }
 
@@ -23,12 +23,34 @@
   }
 }
 
-/* React Transition Group Fade-in */
-.example-appear {
-  opacity: 0.01;
+/* React Transition Group fade in and out */
+.fade-appear {
+  opacity: 0;
 }
 
-.example-appear.example-appear-active {
+.fade-appear.fade-appear-active {
   opacity: 1;
-  transition: opacity 200ms ease-in;
+  transition: opacity 450ms ease-in;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+  opacity: 0;
+  transition: opacity 450ms linear;
+}
+
+.fade-exit-done {
+  opacity: 0;
+}
+
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 450ms linear;
 }

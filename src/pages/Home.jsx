@@ -2,12 +2,17 @@ import React from 'react';
 import styled from 'styled-components';
 import {ReactComponent as SunspellLogo} from '../images/sunspell_logo_no_bg.svg';
 import '../App.css';
+import FadeDiv from '../components/FadeDiv';
+
 
 const Home = () => {
 
+
     return(
         <Holder>
-            <SunspellLogo className="App-logo" />
+           <FadeDiv>
+                <SunspellLogo className="App-logo" />
+            </FadeDiv> 
         </Holder>
     );
 
