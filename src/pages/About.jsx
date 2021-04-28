@@ -24,7 +24,6 @@ export default About;
 const Holder = styled.div`
 width: 100%;
 height: 80vh;
-background-color: #d8bc96;
 background-image: url(${headphones});
 background-size: cover;
 background-position: center;
