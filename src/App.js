@@ -1,59 +1,51 @@
-import React, {useState, useEffect} from "react";
+import React, {Suspense,
+  //  lazy
+  } from "react";
 import './App.css';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-} from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Spinner from 'react-bootstrap/Spinner'
 // components
 import Navigation from './components/Nav';
 import Belt from './components/Belt';
 import Footer from './components/Footer';
 // pages
 import Home from './pages/Home'
-import Gear from './pages/Gear'
-import Services from './pages/Services'
 import About from './pages/About'
 import Contact from './pages/Contact'
+import Gear from './pages/Gear'
+import Services from './pages/Services'
+
+
+// const Home = lazy(() => import('./pages/Home'))
+// const Gear = lazy(() => import('./pages/Gear'))
+// const Services = lazy(() => import('./pages/Services'))
+// const Contact = lazy(() => import('./pages/Contact'))
+// const About = lazy(() => import('./pages/About'))
 
 
 export default function App() {
  
-  const [loaded, setLoaded] = useState(false);
-  
-  useEffect(() => {setLoaded(true)}, [])
-
-  const noStyle = {opacity: 0}
-  const fadeStyle = {opacity: 1}
 
   return (
-    <div className="App" style={loaded ? fadeStyle : noStyle}>
+    <div className="App">
     <Router >
+      <Suspense fallback={<div style={{textAlign: 'center', marginTop: '65px'}}><Spinner animation="grow" /></div>}>
       <Navigation />
       <div>
 
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
-          <Route path="/gear">
-            <Gear />
-          </Route>
-          <Route path="/services">
-            <Services />
-          </Route>
-          <Route path="/contact">
-            <Contact />
-          </Route>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
+          <Route exact path="/" component={Home} />
+          <Route path="/gear" component={Gear}/>
+          <Route path="/services" component={Services}/>
+          <Route path="/contact" component={Contact}/>
+          <Route path="/about" component={About}/>
         </Switch>
       </div>
       <Belt />
       <Footer />
+      </Suspense>
     </Router>
     </div>
   );
