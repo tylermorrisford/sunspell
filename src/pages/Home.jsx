@@ -9,11 +9,11 @@ const Home = () => {
 
 
     return(
-           <FadeDiv>
-                <Holder>
-                    <SunspellLogo className="App-logo" />
-                </Holder>
+        <Holder>
+            <FadeDiv>
+                <SunspellLogo className="App-logo" />
             </FadeDiv> 
+        </Holder>
     );
 
 }

@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -16,9 +16,18 @@ import Services from './pages/Services'
 import About from './pages/About'
 import Contact from './pages/Contact'
 
+
 export default function App() {
+ 
+  const [loaded, setLoaded] = useState(false);
+  
+  useEffect(() => {setLoaded(true)}, [])
+
+  const noStyle = {opacity: 0}
+  const fadeStyle = {opacity: 1}
+
   return (
-    <div className="App">
+    <div className="App" style={loaded ? fadeStyle : noStyle}>
     <Router >
       <Navigation />
       <div>
