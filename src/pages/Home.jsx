@@ -5,7 +5,7 @@ import '../App.css';
 import FadeDiv from '../components/FadeDiv';
 
 
-const Home = () => {
+export default function Home() {
 
 
     return(
@@ -18,7 +18,6 @@ const Home = () => {
 
 }
 
-export default Home;
 
 const Holder = styled.div`
 width: 100%;
