@@ -1,5 +1,5 @@
 import React, {Suspense,
-   lazy
+   lazy, useState, useEffect
   } from "react";
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -10,6 +10,7 @@ import Belt from './components/Belt';
 import Footer from './components/Footer';
 // pages
 import Home from './pages/Home'
+import FadeDiv from "./components/FadeDiv";
 // import About from './pages/About'
 // import Contact from './pages/Contact'
 // import Gear from './pages/Gear'
@@ -25,12 +26,18 @@ const About = lazy(() => import('./pages/About'))
 
 export default function App() {
  
+  const [loaded, setLoaded] = useState(false);
+
+  useEffect(() => {
+      setLoaded(true)
+  },[])
+
 
   return (
     <div className="App">
     <Router >
       <Suspense fallback={<div style={{textAlign: 'center', marginTop: '65px'}}><Spinner animation="grow" /></div>}>
-          <Navigation />
+          {loaded ? <Navigation /> : <FadeDiv><Navigation /></FadeDiv> }
               <Switch>
                 <Route exact path="/" component={Home} />
                 <Route path="/gear" component={Gear}/>
