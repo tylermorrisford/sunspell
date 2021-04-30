@@ -11,17 +11,17 @@ import Footer from './components/Footer';
 // pages
 import Home from './pages/Home'
 // import FadeDiv from "./components/FadeDiv";
-// import About from './pages/About'
-// import Contact from './pages/Contact'
-// import Gear from './pages/Gear'
-// import Services from './pages/Services'
+import About from './pages/About'
+import Contact from './pages/Contact'
+import Gear from './pages/Gear'
+import Services from './pages/Services'
 
 
 // const Home = lazy(() => import('./pages/Home'))
-const Gear = lazy(() => import('./pages/Gear'))
-const Services = lazy(() => import('./pages/Services'))
-const Contact = lazy(() => import('./pages/Contact'))
-const About = lazy(() => import('./pages/About'))
+// const Gear = lazy(() => import('./pages/Gear'))
+// const Services = lazy(() => import('./pages/Services'))
+// const Contact = lazy(() => import('./pages/Contact'))
+// const About = lazy(() => import('./pages/About'))
 
 
 export default function App() {
