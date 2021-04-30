@@ -5,7 +5,6 @@ import { LinkContainer } from 'react-router-bootstrap';
 const navStyle = {
     fontSize: '1.7rem', 
     fontWeight: 700,
-    // backgroundColor: '#d8bc96', // this was black
     color: 'black' // this was #a4826c
 }
 
