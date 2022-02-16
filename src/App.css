@@ -10,7 +10,8 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 16s linear;
+    /* animation: App-logo-spin infinite 16s linear; */
+    animation: logo-fade 2s ease 1s 1 normal forwards;
   }
 }
 
@@ -20,6 +21,16 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes logo-fade {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
   }
 }
 

@@ -13,6 +13,10 @@ const brandStyle = {
     color: 'black'
 }
 
+const active = {
+    color: '#568a39'
+}
+
 const Navigation = () => {
 
     return(
@@ -23,10 +27,10 @@ const Navigation = () => {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="ml-auto">
-                    <LinkContainer style={navStyle} activeStyle={{color: '#a4826c'}} to="/gear"><Nav.Link href="/">Gear</Nav.Link></LinkContainer>  
-                    <LinkContainer style={navStyle} activeStyle={{color: '#a4826c'}} to="/services"><Nav.Link href="/">Services</Nav.Link></LinkContainer>  
-                    <LinkContainer style={navStyle} activeStyle={{color: '#a4826c'}} to="/contact"><Nav.Link href="/">Contact</Nav.Link></LinkContainer>  
-                    <LinkContainer style={navStyle} activeStyle={{color: '#a4826c'}} to="/about"><Nav.Link href="/">About</Nav.Link></LinkContainer>  
+                    <LinkContainer style={navStyle} activeStyle={active} to="/gear"><Nav.Link href="/">Gear</Nav.Link></LinkContainer>  
+                    <LinkContainer style={navStyle} activeStyle={active} to="/services"><Nav.Link href="/">Services</Nav.Link></LinkContainer>  
+                    <LinkContainer style={navStyle} activeStyle={active} to="/contact"><Nav.Link href="/">Contact</Nav.Link></LinkContainer>  
+                    <LinkContainer style={navStyle} activeStyle={active} to="/about"><Nav.Link href="/">About</Nav.Link></LinkContainer>  
                 </Nav>
             </Navbar.Collapse>
             </Navbar>

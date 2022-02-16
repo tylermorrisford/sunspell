@@ -17,7 +17,7 @@ margin: 0;
 width: 100%;
 height: 80px;
 background-color: white;
-color: #a4826c;
+color: #568a39;
 text-align: center;
 display: flex;
 align-items: center;

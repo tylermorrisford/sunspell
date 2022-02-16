@@ -19,7 +19,7 @@ const Belt = () => {
                             <h1>Sunspell Records</h1>   
                             <p>Salt Lake City, Utah<br />
                             801-952-7283<br />
-                            <a style={{color: '#a4826c'}} href="mailto:sunspellrecords@gmail.com">sunspellrecords@gmail.com</a></p>
+                            <a style={{color: '#568a39'}} href="mailto:sunspellrecords@gmail.com">sunspellrecords@gmail.com</a></p>
                         </div>
                     </Col>
                 </Row>

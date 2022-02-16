@@ -8,7 +8,7 @@ const FadeDiv = (props) => {
           <CSSTransition
             in={true}
             appear={true}
-            timeout={500}
+            timeout={4000}
             classNames="fade"
             >
                 {props.children}
