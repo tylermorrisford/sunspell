@@ -11,7 +11,7 @@
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     /* animation: App-logo-spin infinite 16s linear; */
-    animation: logo-fade 2s ease 1s 1 normal forwards;
+    animation: logo-fade 3s ease 1s 1 normal forwards;
   }
 }
 
@@ -26,7 +26,7 @@
 
 @keyframes logo-fade {
   0% {
-    transform: scale(0);
+    transform: scale(0.9);
   }
 
   100% {
