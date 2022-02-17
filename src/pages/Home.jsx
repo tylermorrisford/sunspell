@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import amps from '../images/Sunspell31.jpg'
 // import {ReactComponent as SunspellLogo} from '../images/sunspell_nokitty450.png';
-import noKitty from '../images/sunspell_nokitty450.jpg'
+// import noKitty from '../images/sunspell_nokitty450.jpg'
 import '../App.css';
 import FadeDiv from '../components/FadeDiv';
 
