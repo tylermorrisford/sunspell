@@ -22,7 +22,7 @@ text-align: center;
 display: flex;
 align-items: center;
 justify-content: center;
-font-weight: 700;
+font-weight: 200;
 font-size: 1.6rem;
 `
 

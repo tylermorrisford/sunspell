@@ -5,12 +5,12 @@ import logo from '../images/sunspell_nokitty450.jpg'
 
 const navStyle = {
     fontSize: '1.7rem', 
-    fontWeight: 400,
+    fontWeight: 200,
     color: 'black' // this was #a4826c
 }
 
 const brandStyle = {
-    fontSize: '2.1rem', 
+    fontSize: '1.8rem', 
     color: 'black'
 }
 

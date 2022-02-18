@@ -12,7 +12,7 @@ const Belt = () => {
             <Background>
                 <Row style={{margin: 0, padding: 0}}>
                     <Col s={12} md={6} style={colStyle}>
-                            <h1 style={{paddingBottom:'25px'}}>Let's make a recording</h1>
+                            <h1 style={{paddingBottom:'25px', textAlign: 'center'}}>Let's make a recording</h1>
                     </Col>
                     <Col s={12} md={6} style={colStyle}>
                         <div style={{textAlign: 'left'}}>
@@ -32,7 +32,7 @@ const Background = styled.div`
 background-color: #202020;
 width: 100%;
 color: whitesmoke;
-font-family: 'Roboto', sans-serif;
+font-family: 'Poppins', sans-serif;
 padding: 3em 0 2em 3em;
 // text-align: center; 
 `
