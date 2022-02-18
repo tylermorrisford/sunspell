@@ -42,6 +42,6 @@ justify-content: center;
 const BodyText = styled.p`
 line-height: 1.5;
 font-size: 1.1rem;
-font-family: 'Roboto', sans-serif;
+font-family: 'Poppins', sans-serif;
 `
 
