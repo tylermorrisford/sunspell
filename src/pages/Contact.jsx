@@ -15,7 +15,7 @@ const Contact = () => {
         </FadeDiv>
         <PageBody>
                 <div style={{textAlign: 'center', fontSize: '3rem', width: '70%', margin: '0 auto'}}>
-                <h2>We're probably making a hit <br />*right now* <br />so drop us a line, <br />we'll get right back 'atcha</h2>
+                <h2>Tell us about your project!<br />We are excited to work with you.</h2>
                 <Email href="mailto:sunspellrecords@gmail.com"><Button variant="outline-dark"><h2>Email us</h2></Button></Email>
                 </div>
         </PageBody>

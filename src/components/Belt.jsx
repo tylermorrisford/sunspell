@@ -18,10 +18,9 @@ const Belt = () => {
                     </Col>
                     <Col s={12} md={6} style={colStyle}>
                         <div style={{textAlign: 'left'}}>
-                            <h1 style={{fontWeight: '200'}}>Sunspell Records</h1>   
-                            <p>Salt Lake City, Utah<br />
-                            801-952-7283<br />
-                            <a style={{color: '#568a39'}} href="mailto:sunspellrecords@gmail.com">sunspellrecords@gmail.com</a></p>
+                            <h1 style={{fontWeight: '200'}}>Salt Lake City Recording Services
+                            <br />Sunspell Records, SLC UT</h1>   
+                            <p><a style={{color: '#568a39'}} href="mailto:sunspellrecords@gmail.com">sunspellrecords@gmail.com</a></p>
                         </div>
                     </Col>
                 </Row>

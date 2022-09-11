@@ -13,8 +13,7 @@ const Services = () => {
                 <Holder />
             </FadeDiv>
             <PageBody>
-                <h2>We know how to twist those knobs.<br />
-                AND we know how to make records</h2>
+                <h2>Sunspell Records is a multifaceted facility providing multitrack and live recording, engineering, producing, mixing, mastering, tape bounces, reamping, composition, and performance.</h2>
             </PageBody>
         </>
     );

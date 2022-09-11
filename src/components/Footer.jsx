@@ -5,7 +5,7 @@ const Footer = () => {
     
     return (
         <Foot>
-            <p>© {new Date().getFullYear()} Sunspell Records</p>
+            <p>© {new Date().getFullYear()} Sunspell Records LLC</p>
         </Foot>
     )
 }
