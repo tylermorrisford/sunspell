@@ -10,7 +10,7 @@ export default defineConfig(() => {
     plugins: [
       react(),
       ViteImageOptimizer({
-        include: ['**/*.png', '**/*.jpg', '**/*.svg'],
+        include: ['src/images/*.jpg', 'src/images/*.png'],
         jpeg: {
           quality: 10,
           progressive: true,
