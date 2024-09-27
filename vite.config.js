@@ -7,6 +7,13 @@ export default defineConfig(() => {
     build: {
       outDir: 'build',
     },
-    plugins: [react(), ViteImageOptimizer()],
+    plugins: [
+      react(),
+      ViteImageOptimizer({
+        jpeg: {
+          quality: 85,
+        },
+      }),
+    ],
   };
 });
