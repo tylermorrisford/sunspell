@@ -11,7 +11,7 @@ export default defineConfig(() => {
       react(),
       ViteImageOptimizer({
         jpeg: {
-          quality: 85,
+          quality: 70,
         },
       }),
     ],
