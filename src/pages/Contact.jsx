@@ -3,7 +3,7 @@ import { Button } from 'react-bootstrap';
 import styled from 'styled-components';
 import FadeDiv from '../components/FadeDiv';
 import PageBody from '../components/PageBody';
-import room from '../images/Sunspell_room.jpg';
+import room from '../images/Sunspell_room-min.jpg';
 
 // const room = lazy(() => import('../images/Sunspell_room.jpg'));
 

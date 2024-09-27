@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import gear from '../images/Sunspell08.jpg';
+import gear from '../images/Sunspell08-min.jpg';
 import FadeDiv from '../components/FadeDiv';
 import PageBody from '../components/PageBody';
 import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';

@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import FadeDiv from '../components/FadeDiv';
 import PageBody from '../components/PageBody';
-import control from '../images/Sunspell_control.jpg';
+import control from '../images/Sunspell_control-min.jpg';
 
 // const control = lazy(() => import('../images/Sunspell_control.jpg'));
 

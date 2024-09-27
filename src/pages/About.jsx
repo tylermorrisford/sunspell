@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import FadeDiv from '../components/FadeDiv';
 import PageBody from '../components/PageBody';
-import headphones from '../images/Sunspell_headphones.jpg';
+import headphones from '../images/Sunspell_headphones-min.jpg';
 
 // const headphones = lazy(() => import('../images/Sunspell_headphones.jpg'));
 
