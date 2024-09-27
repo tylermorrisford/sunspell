@@ -12,6 +12,8 @@ export default defineConfig(() => {
       ViteImageOptimizer({
         jpeg: {
           quality: 70,
+          progressive: true,
+          mozjpeg: true,
         },
       }),
     ],
