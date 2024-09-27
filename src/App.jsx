@@ -10,7 +10,6 @@ import Navigation from './components/Nav';
 import Footer from './components/Footer';
 // pages
 import Home from './pages/Home';
-
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Gear from './pages/Gear';
