@@ -6,7 +6,6 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Spinner from 'react-bootstrap/Spinner'
 // components
 import Navigation from './components/Nav';
-import Belt from './components/Belt';
 import Footer from './components/Footer';
 // pages
 import Home from './pages/Home'
@@ -38,7 +37,6 @@ export default function App() {
                 <Route path="/contact" component={Contact}/>
                 <Route path="/about" component={About}/>
               </Switch>
-          <Belt />
           <Footer />
       </Suspense>
     </Router>

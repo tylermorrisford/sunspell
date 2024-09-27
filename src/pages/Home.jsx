@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import amps from '../images/Sunspell31.jpg'
-// import noKitty from '../images/sunspell_nokitty450.jpg'
 import '../App.css';
 import FadeDiv from '../components/FadeDiv';
 
@@ -12,7 +11,7 @@ export default function Home() {
     return(
         <Holder>
             <FadeDiv>   
-                <Overlay>LET'S MAKE<br />SOME NOISE</Overlay>
+                <Overlay>SALT LAKE CITY<br />RECORDING SERVICES</Overlay>
                 {/* <SunspellLogo style={{width: '350px', height: '350px'}} className='App-logo' /> */}
             </FadeDiv> 
         </Holder>
