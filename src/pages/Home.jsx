@@ -23,7 +23,7 @@ const Overlay = styled.h1`
   font-weight: 900;
   color: white;
   filter: drop-shadow(0 0 0.75rem black);
-  @media (max-width: 430px) {
+  @media (max-width: 440px) {
     font-size: 2em;
   }
 `;
@@ -39,4 +39,7 @@ const Holder = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  @media (max-width: 440px) {
+    height: 70vh;
+  }
 `;

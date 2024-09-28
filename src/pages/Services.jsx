@@ -13,11 +13,11 @@ const Services = () => {
         <Holder />
       </FadeDiv>
       <PageBody>
-        <h2>
+        <h4>
           Sunspell Records is a multifaceted facility providing multitrack and
           live recording, engineering, producing, mixing, mastering, tape
           bounces, podcasts, reamping, composition, and performance.
-        </h2>
+        </h4>
       </PageBody>
     </>
   );

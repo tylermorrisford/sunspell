@@ -22,10 +22,10 @@ const Contact = () => {
             margin: '0 auto',
           }}
         >
-          <h2>Tell us about your project, We are excited to work with you!</h2>
+          <h4>Tell us about your project, We are excited to work with you!</h4>
           <Email href='mailto:sunspellrecords@gmail.com'>
             <Button variant='outline-dark'>
-              <h2>Email us</h2>
+              <h4>Email us</h4>
             </Button>
           </Email>
         </div>
