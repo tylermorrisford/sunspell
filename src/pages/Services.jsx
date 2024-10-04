@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import FadeDiv from '../components/FadeDiv';
 import PageBody from '../components/PageBody';
-import services from '../images/Sunspell_services.jpg';
+import services from '../images/SunSpell_Services.jpg';
 
 const Services = () => {
   return (

@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import FadeDiv from '../components/FadeDiv';
 import PageBody from '../components/PageBody';
-import about from '../images/Sunspell_about.jpg';
+import about from '../images/SunSpell_About.jpg';
 
 const About = () => {
   return (
