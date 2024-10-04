@@ -1,11 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
-import gear from '../images/Sunspell08-min.jpg';
+import mics from '../images/SunSpell_Gear.jpg';
 import FadeDiv from '../components/FadeDiv';
 import PageBody from '../components/PageBody';
 import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
-
-// const gear = lazy(() => import('../images/Sunspell08.jpg'));
 
 const Gear = () => {
   return (
@@ -301,7 +299,7 @@ export default Gear;
 const Holder = styled.div`
   width: 100%;
   height: 80vh;
-  background-image: url(${gear});
+  background-image: url(${mics});
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

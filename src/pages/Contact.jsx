@@ -3,9 +3,7 @@ import { Button } from 'react-bootstrap';
 import styled from 'styled-components';
 import FadeDiv from '../components/FadeDiv';
 import PageBody from '../components/PageBody';
-import room from '../images/Sunspell_room-min.jpg';
-
-// const room = lazy(() => import('../images/Sunspell_room.jpg'));
+import guys from '../images/SunSpell_Contact.jpg';
 
 const Contact = () => {
   return (
@@ -22,6 +20,7 @@ const Contact = () => {
             margin: '0 auto',
           }}
         >
+          <h2>Contact us for a quote</h2>
           <h4>Tell us about your project, We are excited to work with you!</h4>
           <Email href='mailto:sunspellrecords@gmail.com'>
             <Button variant='outline-dark'>
@@ -40,7 +39,7 @@ const Holder = styled.div`
   width: 100%;
   height: 80vh;
   // background-color: #d8bc96;
-  background-image: url(${room});
+  background-image: url(${guys});
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -48,6 +47,9 @@ const Holder = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+  @media (max-width: 440px) {
+    height: 50vh;
+  }
 `;
 
 const Email = styled.a`

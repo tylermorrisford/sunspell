@@ -2,9 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import FadeDiv from '../components/FadeDiv';
 import PageBody from '../components/PageBody';
-import control from '../images/Sunspell_control-min.jpg';
-
-// const control = lazy(() => import('../images/Sunspell_control.jpg'));
+import services from '../images/Sunspell_services.jpg';
 
 const Services = () => {
   return (
@@ -13,6 +11,7 @@ const Services = () => {
         <Holder />
       </FadeDiv>
       <PageBody>
+        <h2>Services</h2>
         <h4>
           Sunspell Records is a multifaceted facility providing multitrack and
           live recording, engineering, producing, mixing, mastering, tape
@@ -29,7 +28,7 @@ const Holder = styled.div`
   width: 100%;
   height: 80vh;
   // background-color: #d8bc96;
-  background-image: url(${control});
+  background-image: url(${services});
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

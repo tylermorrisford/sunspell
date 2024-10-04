@@ -2,9 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import FadeDiv from '../components/FadeDiv';
 import PageBody from '../components/PageBody';
-import headphones from '../images/Sunspell_headphones-min.jpg';
-
-// const headphones = lazy(() => import('../images/Sunspell_headphones.jpg'));
+import about from '../images/Sunspell_about.jpg';
 
 const About = () => {
   return (
@@ -13,6 +11,7 @@ const About = () => {
         <Holder />
       </FadeDiv>
       <PageBody>
+        <h2>About</h2>
         <h4>
           Sunspell Records is a Salt Lake City based recording studio located in
           the University district. <br />
@@ -30,9 +29,9 @@ export default About;
 const Holder = styled.div`
   width: 100%;
   height: 80vh;
-  background-image: url(${headphones});
+  background-image: url(${about});
   background-size: cover;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   text-align: center;
   display: flex;

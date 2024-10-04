@@ -5,7 +5,7 @@ import Spinner from 'react-bootstrap/Spinner';
 // components
 import Navigation from './components/Nav';
 import Footer from './components/Footer';
-// pages
+// pages, base route not lazy loaded
 import Home from './pages/Home';
 // This feels too good to be true, keeping these around for quick fallback
 // import About from './pages/About';

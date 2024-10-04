@@ -1,19 +1,21 @@
 import React from 'react';
 import styled from 'styled-components';
-import amps from '../images/Sunspell31-min.jpg';
+import home from '../images/SunSpell_Home.jpg';
 import '../App.css';
 import FadeDiv from '../components/FadeDiv';
 
 export default function Home() {
   return (
     <FadeDiv>
-      <Holder>
-        <Overlay>
-          SALT LAKE CITY
-          <br />
+      <>
+        <Holder />
+        {/* <Overlay> */}
+        <h1>
+          SALT LAKE CITY {/* <br /> */}
           RECORDING SERVICES
-        </Overlay>
-      </Holder>
+        </h1>
+        {/* </Overlay> */}
+      </>
     </FadeDiv>
   );
 }
@@ -31,7 +33,7 @@ const Overlay = styled.h1`
 const Holder = styled.div`
   width: 100%;
   height: 80vh;
-  background-image: url(${amps});
+  background-image: url(${home});
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

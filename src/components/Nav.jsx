@@ -2,7 +2,7 @@ import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 import styled from 'styled-components';
-import logo from '../images/sunspell_nokitty450.jpg';
+// import logo from '../images/sunspell_nokitty450.jpg';
 
 const navStyle = {
   display: 'flex',
@@ -25,10 +25,7 @@ const active = {
 const Navigation = () => {
   return (
     <Navbar collapseOnSelect expand='lg' style={navStyle} className='nav'>
-      <Navbar.Toggle aria-controls='responsive-navbar-nav' />
-      <Navbar.Brand
-      // style={{fontSize: '1.7rem'}}
-      >
+      <Navbar.Brand>
         <BrandLink>
           <LinkContainer to='/' style={brandStyle}>
             <Nav.Link to='/'>
@@ -37,6 +34,7 @@ const Navigation = () => {
           </LinkContainer>
         </BrandLink>
       </Navbar.Brand>
+      <Navbar.Toggle aria-controls='responsive-navbar-nav' />
       <Navbar.Collapse id='responsive-navbar-nav'>
         <Nav className='ml-auto'>
           <LinkContainer style={navStyle} activeStyle={active} to='/gear'>
