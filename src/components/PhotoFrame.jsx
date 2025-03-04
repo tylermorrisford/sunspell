@@ -5,7 +5,7 @@ const Holder = styled.div`
   height: 80vh;
   background-image: url(${(props) => props.photo});
   background-size: cover;
-  background-position: center;
+  background-position: ${(props) => (props.tall ? `top` : `center`)};
   background-repeat: no-repeat;
   text-align: center;
   display: flex;
@@ -16,8 +16,8 @@ const Holder = styled.div`
   }
 `;
 
-const PhotoFrame = ({ photo }) => {
-  return <Holder photo={photo} />;
+const PhotoFrame = ({ photo, tall = false }) => {
+  return <Holder photo={photo} tall={tall} />;
 };
 
 export default PhotoFrame;

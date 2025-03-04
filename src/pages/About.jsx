@@ -5,7 +5,7 @@ import about from '../images/SunSpell_About.jpg';
 const About = () => {
   return (
     <>
-      <PhotoFrame photo={about} />
+      <PhotoFrame photo={about} tall />
       <PageBody>
         <h2>About</h2>
         <h4>
