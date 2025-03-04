@@ -13,8 +13,6 @@ const PageBody = (props) => {
 export default PageBody;
 
 const TextHolder = styled.div`
-// ditching the centered text for now
-// text-align: center;
 align-content: center; 
 padding: 45px;
 margin: 0 1.5em;

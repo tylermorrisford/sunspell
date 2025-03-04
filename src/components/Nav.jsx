@@ -2,7 +2,6 @@ import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 import styled from 'styled-components';
-// import logo from '../images/sunspell_nokitty450.jpg';
 
 const navStyle = {
   display: 'flex',
@@ -43,11 +42,17 @@ const Navigation = () => {
           <LinkContainer style={navStyle} activeStyle={active} to='/services'>
             <Nav.Link href='/'>Services</Nav.Link>
           </LinkContainer>
-          <LinkContainer style={navStyle} activeStyle={active} to='/contact'>
-            <Nav.Link href='/'>Contact</Nav.Link>
-          </LinkContainer>
           <LinkContainer style={navStyle} activeStyle={active} to='/about'>
             <Nav.Link href='/'>About</Nav.Link>
+          </LinkContainer>
+          {/* <LinkContainer style={navStyle} activeStyle={active} to='/gallery'>
+            <Nav.Link href='/'>Gallery</Nav.Link>
+          </LinkContainer> */}
+          <LinkContainer style={navStyle} activeStyle={active} to='/links'>
+            <Nav.Link href='/'>Links</Nav.Link>
+          </LinkContainer>
+          <LinkContainer style={navStyle} activeStyle={active} to='/contact'>
+            <Nav.Link href='/'>Contact</Nav.Link>
           </LinkContainer>
         </Nav>
       </Navbar.Collapse>

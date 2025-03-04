@@ -1,16 +1,42 @@
 import React from 'react';
 import styled from 'styled-components';
 import mics from '../images/SunSpell_Gear.jpg';
-import FadeDiv from '../components/FadeDiv';
-import PageBody from '../components/PageBody';
+import { PageBody, PhotoFrame } from '../components';
 import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
+
+const BodyText = styled.p`
+  line-height: 1.5;
+  font-size: 1.1rem;
+  font-family: 'Poppins', sans-serif;
+`;
+
+const GearCategory = styled.div`
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px solid #568a39;
+`;
+
+const GearUL = styled.ul`
+  list-style-type: none;
+  padding: 0;
+`;
+
+const GearLI = styled.li`
+  margin-bottom: 0.5rem;
+`;
+
+const GearHeader = styled.h3`
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #568a39;
+  text-align: center;
+  margin-bottom: 1rem;
+`;
 
 const Gear = () => {
   return (
     <>
-      <FadeDiv>
-        <Holder />
-      </FadeDiv>
+      <PhotoFrame photo={mics} />
       <PageBody>
         <h2>Gear List</h2>
         <BodyText>
@@ -295,45 +321,3 @@ const Gear = () => {
 };
 
 export default Gear;
-
-const Holder = styled.div`
-  width: 100%;
-  height: 80vh;
-  background-image: url(${mics});
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-`;
-
-const BodyText = styled.p`
-  line-height: 1.5;
-  font-size: 1.1rem;
-  font-family: 'Poppins', sans-serif;
-`;
-
-const GearCategory = styled.div`
-  padding: 1rem;
-  border-radius: 5px;
-  border: 1px solid #568a39;
-`;
-
-const GearUL = styled.ul`
-  list-style-type: none;
-  padding: 0;
-`;
-
-const GearLI = styled.li`
-  margin-bottom: 0.5rem;
-`;
-
-const GearHeader = styled.h3`
-  font-size: 1.5rem;
-  font-weight: 500;
-  color: #568a39;
-  text-align: center;
-  margin-bottom: 1rem;
-`;

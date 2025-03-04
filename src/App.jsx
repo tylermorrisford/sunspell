@@ -15,9 +15,11 @@ import Home from './pages/Home';
 
 // const Home = lazy(() => import('./pages/Home'))
 const Gear = lazy(() => import('./pages/Gear'));
+const Gallery = lazy(() => import('./pages/Gallery'));
 const Services = lazy(() => import('./pages/Services'));
 const Contact = lazy(() => import('./pages/Contact'));
 const About = lazy(() => import('./pages/About'));
+const Links = lazy(() => import('./pages/Links'));
 
 export default function App() {
   return (
@@ -35,8 +37,10 @@ export default function App() {
             <Route exact path='/' component={Home} />
             <Route path='/gear' component={Gear} />
             <Route path='/services' component={Services} />
-            <Route path='/contact' component={Contact} />
             <Route path='/about' component={About} />
+            <Route path='/gallery' component={Gallery} />
+            <Route path='/links' component={Links} />
+            <Route path='/contact' component={Contact} />
           </Switch>
           <Footer />
         </Suspense>
