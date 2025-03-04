@@ -1,5 +1,5 @@
 import React from 'react';
-import { PageBody, PhotoFrame } from '../components/PageBody';
+import { PageBody, PhotoFrame } from '../components';
 import about from '../images/SunSpell_About.jpg';
 
 const About = () => {
