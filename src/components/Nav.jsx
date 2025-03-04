@@ -42,17 +42,17 @@ const Navigation = () => {
           <LinkContainer style={navStyle} activeStyle={active} to='/services'>
             <Nav.Link href='/'>Services</Nav.Link>
           </LinkContainer>
-          <LinkContainer style={navStyle} activeStyle={active} to='/about'>
-            <Nav.Link href='/'>About</Nav.Link>
-          </LinkContainer>
           {/* <LinkContainer style={navStyle} activeStyle={active} to='/gallery'>
             <Nav.Link href='/'>Gallery</Nav.Link>
-          </LinkContainer> */}
+            </LinkContainer> */}
           <LinkContainer style={navStyle} activeStyle={active} to='/links'>
             <Nav.Link href='/'>Links</Nav.Link>
           </LinkContainer>
           <LinkContainer style={navStyle} activeStyle={active} to='/contact'>
             <Nav.Link href='/'>Contact</Nav.Link>
+          </LinkContainer>
+          <LinkContainer style={navStyle} activeStyle={active} to='/about'>
+            <Nav.Link href='/'>About</Nav.Link>
           </LinkContainer>
         </Nav>
       </Navbar.Collapse>
