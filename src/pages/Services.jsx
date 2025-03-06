@@ -1,4 +1,3 @@
-import React from 'react';
 import {PageBody, PhotoFrame} from '../components';
 import services from '../images/SunSpell_Services.jpg';
 

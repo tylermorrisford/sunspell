@@ -1,4 +1,3 @@
-import React from 'react';
 import home from '../images/SunSpell_Home.jpg';
 import { PhotoFrame } from '../components';
 import '../App.css';

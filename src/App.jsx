@@ -7,13 +7,6 @@ import Navigation from './components/Nav';
 import Footer from './components/Footer';
 // pages, base route not lazy loaded
 import Home from './pages/Home';
-// This feels too good to be true, keeping these around for quick fallback
-// import About from './pages/About';
-// import Contact from './pages/Contact';
-// import Gear from './pages/Gear';
-// import Services from './pages/Services';
-
-// const Home = lazy(() => import('./pages/Home'))
 const Gear = lazy(() => import('./pages/Gear'));
 const Gallery = lazy(() => import('./pages/Gallery'));
 const Services = lazy(() => import('./pages/Services'));
@@ -28,7 +21,7 @@ export default function App() {
         <Suspense
           fallback={
             <div style={{ textAlign: 'center', marginTop: '65px' }}>
-              <Spinner animation='grow' />
+              ...loading <Spinner animation='grow' size='sm' />
             </div>
           }
         >
